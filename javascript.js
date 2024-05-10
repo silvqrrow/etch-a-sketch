@@ -5,7 +5,7 @@ btn.onclick = () => {
   let gridSize;
   do {
     gridSize = prompt("Input a grid size up to 100:", 16);
-  } while (gridSize > 100);
+  } while (0 > gridSize > 100);
   deleteGrid();
   createGrid(gridSize);
 };
