@@ -1,6 +1,26 @@
+body {
+  background-color: #dddddd;
+}
+
 .title {
   text-align: center;
   font-family: "Roboto", sans-serif;
+}
+
+.btn {
+  display: block;
+  margin: 25px auto;
+  border: 3px solid #7289da;
+  border-radius: 2rem;
+  background-color: #dddddd;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background-color: #424549;
 }
 
 .grid__container {
